@@ -1,0 +1,33 @@
+.headerDiv{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.mainComp{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.btn:hover{
+    background: red;
+}
+.items{
+
+    border: 1px solid;
+    width: 11rem;
+    display: flex;
+    /* justify-items: baseline; */
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+.pokemons{
+    width: 100%;
+    background: #00c5ff;
+
+    text-align: center;
+    margin-bottom: 1rem;
+    padding: 20px;
+}
